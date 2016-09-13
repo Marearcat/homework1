@@ -16,9 +16,9 @@ namespace ConsoleApplication4
             int k = f / 2;
             int j = 0;
             int a;
-            for (i = 1; i<=k; i++)
+            for (i = 0; i<=(k-1); i++)
             {
-                if (s[i] == s[f-i+1])
+                if (s[i] == s[f-i])
                 {
                     j = j + 1;
                 }
